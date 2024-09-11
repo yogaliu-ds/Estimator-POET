@@ -4,6 +4,7 @@
 Follow the paper: Large covariance estimation by thresholding principal orthogonal complements
 Create unbiased precision matrix based on small time length.
 
+## Overview
 This repository includes a Python module implementing the POET (PCA-based Optimal Estimation of Thresholds) model for estimating sparse covariance matrices. The implementation focuses on optimizing parameters and reconstructing data to estimate precision matrices effectively.
 Overview
 
@@ -15,7 +16,7 @@ The module includes functions to perform the following tasks:
     Find the Optimal Threshold (find_c_star)
     Compute the Precision Matrix (compute_precision_matrix)
 
-Functions
+## Functions
 estimator_POET(p, T, demeaned_matrix, M, ic)
 
 Objective: Determine the optimal number of principal components KK for the given data.
